@@ -1,0 +1,24 @@
+{
+  "name": "sass-sandbox",
+  "version": "1.0.0",
+  "description": "Learning SASS with a simple website home page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femoraes-me/sass-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femoraes-me/sass-sandbox/issues"
+  },
+  "homepage": "https://github.com/femoraes-me/sass-sandbox#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
